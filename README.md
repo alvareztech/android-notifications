@@ -28,31 +28,14 @@ __Solution__: Update `agconnect-services.json` configuration file.
 #### Get Token
 
 ```http
-POST
-https://oauth-login.cloud.huawei.com/oauth2/v3/token
+POST https://oauth-login.cloud.huawei.com/oauth2/v3/token
+Host: oauth-login.cloud.huawei.com
+Content-Type: application/x-www-form-urlencoded
 ```
 
-__Header__
-
-Host
-oauth-login.cloud.huawei.com
-Content-Type
-application/x-www-form-urlencoded
-
-__Body__
-
-| ------------- | ------------- |
-| Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  |
-
-grant_type
-`client_credentials`
- 
-client_secret
-Your Client Secret
-
-client_id
-Your Client ID
+* `grant_type`: `client_credentials`
+* `client_secret`: Your Client Secret
+* `client_id`: Your Client ID
 
 __Response__
 
@@ -67,8 +50,8 @@ __Response__
 #### Send Message
 
 ```http
-POST
-https://push-api.cloud.huawei.com/v1/[appid]/messages:send
+POST https://push-api.cloud.huawei.com/v1/[appid]/messages:send
+Authorization: Bearer CgB6e3x9pzAkPRPDoctuJ...
 ```
 
 __Body__
