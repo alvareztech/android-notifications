@@ -27,13 +27,12 @@ public class MainActivity extends AppCompatActivity {
             public void run() {
                 try {
                     String appId = AGConnectServicesConfig.fromContext(MainActivity.this).getString("client/app_id");
-                    String requestedToken = HmsInstanceId.getInstance(MainActivity.this).getToken(appId, "HCM");
-                    if (!TextUtils.isEmpty(requestedToken)) {
-                        Log.i(TAG, "requested token is :" + requestedToken);
+                    String token = HmsInstanceId.getInstance(MainActivity.this).getToken(appId, "HCM");
+                    if (!TextUtils.isEmpty(token)) {
+                        Log.d(TAG, "Token: " + token);
                     }
                 } catch (Exception e) {
-                    Log.i(TAG, "getToken failed, " + e);
-
+                    Log.e(TAG, "getToken failed", e);
                 }
             }
         }.start();
