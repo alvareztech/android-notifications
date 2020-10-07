@@ -23,8 +23,6 @@ HMSSDK_HmsInstanceIdEx: TokenTask failed, ErrorCode: 800100000
 
 __Solution__: Update `agconnect-services.json` configuration file.
 
-[Reference](https://developer.huawei.com/consumer/en/doc/HMSCore-Guides/android-client-dev-0000001050042041-V5)
-
 ### Server
 
 #### Get Token
@@ -96,9 +94,10 @@ Authorization: Bearer CgB6e3x9pzAkPRPDoctuJ...
 }
 ```
 
-[Server](https://developer.huawei.com/consumer/en/doc/HMSCore-Guides/android-server-dev-0000001050040110-V5)
 
-### Resources
+### Resources   
 
+* [Client Reference](https://developer.huawei.com/consumer/en/doc/HMSCore-Guides/android-client-dev-0000001050042041-V5)
+* [Server Reference](https://developer.huawei.com/consumer/en/doc/HMSCore-Guides/android-server-dev-0000001050040110-V5)
 * [Message Receipt functionality](https://developer.huawei.com/consumer/en/doc/HMSCore-Guides-V5/msg-receipt-guide-0000001050040176-V5)
 * [Message Structure](https://developer.huawei.com/consumer/en/doc/HMSCore-References-V5/https-send-api-0000001050986197-V5)
