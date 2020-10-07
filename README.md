@@ -22,8 +22,7 @@ __Solution__: Update `agconnect-services.json` configuration file.
 
 ### Server
 
-[Reference](https://developer.huawei.com/consumer/en/doc/HMSCore-References-V5/https-send-api-0000001050986197-V5)
-
+#### Get Token
 
 ```http
 POST
@@ -57,11 +56,14 @@ __Response__
 }
 ```
 
+#### Send Message
 
 ```http
 POST
 https://push-api.cloud.huawei.com/v1/[appid]/messages:send
 ```
+
+__Body__
 
 ```json
 {
@@ -86,5 +88,15 @@ https://push-api.cloud.huawei.com/v1/[appid]/messages:send
             "client_token_2"
         ]
     }
+}
+```
+
+__Response__
+
+```json
+{
+    "code": "80000000",
+    "msg": "Success",
+    "requestId": "160209653167346065000206"
 }
 ```
