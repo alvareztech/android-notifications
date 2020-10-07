@@ -1,4 +1,4 @@
-# android-notifications
+# Android Notifications
 
 ## HMS
 
@@ -27,6 +27,8 @@ __Solution__: Update `agconnect-services.json` configuration file.
 
 #### Get Token
 
+##### Request
+
 ```http
 POST https://oauth-login.cloud.huawei.com/oauth2/v3/token
 Host: oauth-login.cloud.huawei.com
@@ -37,7 +39,7 @@ Content-Type: application/x-www-form-urlencoded
 * `client_secret`: Your Client Secret
 * `client_id`: Your Client ID
 
-__Response__
+##### Response
 
 ```json
 {
@@ -49,12 +51,12 @@ __Response__
 
 #### Send Message
 
+##### Request
+
 ```http
 POST https://push-api.cloud.huawei.com/v1/[appid]/messages:send
 Authorization: Bearer CgB6e3x9pzAkPRPDoctuJ...
 ```
-
-__Body__
 
 ```json
 {
@@ -82,7 +84,7 @@ __Body__
 }
 ```
 
-__Response__
+##### Response
 
 ```json
 {
