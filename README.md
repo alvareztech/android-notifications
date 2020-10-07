@@ -24,6 +24,40 @@ __Solution__: Update `agconnect-services.json` configuration file.
 
 [Reference](https://developer.huawei.com/consumer/en/doc/HMSCore-References-V5/https-send-api-0000001050986197-V5)
 
+
+```http
+POST
+https://oauth-login.cloud.huawei.com/oauth2/v3/token
+```
+
+__Header__
+Host
+oauth-login.cloud.huawei.com
+Content-Type
+application/x-www-form-urlencoded
+
+__Body__
+
+grant_type
+client_credentials
+ 
+client_secret
+Is your App Secret
+
+client_id
+Is your App ID
+
+__Response__
+
+```json
+{
+    "access_token": "CgB6e3x9pzAkPR...",
+    "expires_in": 3600,
+    "token_type": "Bearer"
+}
+```
+
+
 ```http
 POST
 https://push-api.cloud.huawei.com/v1/[appid]/messages:send
