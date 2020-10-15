@@ -1,5 +1,7 @@
 # Android Notifications
 
+Sample app that shows the different notification services.
+
 ## HMS
 
 ### Client
