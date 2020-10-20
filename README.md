@@ -103,3 +103,4 @@ Authorization: Bearer CgB6e3x9pzAkPRPDoctuJ...
 * [Server Reference](https://developer.huawei.com/consumer/en/doc/HMSCore-Guides/android-server-dev-0000001050040110-V5)
 * [Message Receipt functionality](https://developer.huawei.com/consumer/en/doc/HMSCore-Guides-V5/msg-receipt-guide-0000001050040176-V5)
 * [Message Structure](https://developer.huawei.com/consumer/en/doc/HMSCore-References-V5/https-send-api-0000001050986197-V5)
+* [.NET utils](https://github.com/HMS-Core/hms-push-serverdemo-csharp)
