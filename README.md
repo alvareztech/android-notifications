@@ -100,12 +100,13 @@ Authorization: Bearer CgB6e3x9pzAkPRPDoctuJ...
 ### Resources   
 
 * [Server Sample Code](https://developer.huawei.com/consumer/en/doc/development/HMSCore-Examples-V5/server-sample-code-0000001050986079-V5)
- * [Java](https://github.com/HMS-Core/hms-push-serverdemo-java)
- * [C#](https://github.com/HMS-Core/hms-push-serverdemo-csharp)
- * [Python](https://github.com/HMS-Core/hms-push-serverdemo-python)
- * [PHP](https://github.com/HMS-Core/hms-push-serverdemo-php)
- * [Go](https://github.com/HMS-Core/hms-push-serverdemo-go)
- * [Node.js](https://github.com/HMS-Core/hms-push-serverdemo-nodejs)
+  * [Java](https://github.com/HMS-Core/hms-push-serverdemo-java)
+  * [C#](https://github.com/HMS-Core/hms-push-serverdemo-csharp)
+  * [Python](https://github.com/HMS-Core/hms-push-serverdemo-python)
+  * [PHP](https://github.com/HMS-Core/hms-push-serverdemo-php)
+  * [Go](https://github.com/HMS-Core/hms-push-serverdemo-go)
+  * [Node.js](https://github.com/HMS-Core/hms-push-serverdemo-nodejs)
+
 * [Client Reference](https://developer.huawei.com/consumer/en/doc/HMSCore-Guides/android-client-dev-0000001050042041-V5)
 * [Server Reference](https://developer.huawei.com/consumer/en/doc/HMSCore-Guides/android-server-dev-0000001050040110-V5)
 * [Message Receipt functionality](https://developer.huawei.com/consumer/en/doc/HMSCore-Guides-V5/msg-receipt-guide-0000001050040176-V5)
