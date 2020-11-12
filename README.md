@@ -100,6 +100,29 @@ Authorization: Bearer CgB6e3x9pzAkPRPDoctuJ...
 }
 ```
 
+Topic
+
+```json
+{
+    "validate_only": false,
+    "message": {
+        "notification": {
+            "title": "Topic title",
+            "body": "Topic body"
+        },
+        "android": {
+            "notification": {
+                "click_action": {
+                    "type": 1,
+                    "action": "com.huawei.codelabpush.intent.action.test"
+                }
+            }
+        },
+        "topic": "topic1"
+    }
+}
+```
+
 ##### Response
 
 ```json
