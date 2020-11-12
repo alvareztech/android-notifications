@@ -12,11 +12,13 @@ implementation 'com.huawei.hms:push:5.0.2.300'
 
 #### Common errors
 
+---
 ```
 getToken failed, com.huawei.hms.common.ApiException: 907135702: certificate fingerprint empty
 ```
 
 __Solution__: Add fingerprint to Huawei web console.
+---
 
 ```
 HMSSDK_HmsInstanceIdEx: TokenTask failed, ErrorCode: 800100000
@@ -24,6 +26,14 @@ HMSSDK_HmsInstanceIdEx: TokenTask failed, ErrorCode: 800100000
 ```
 
 __Solution__: Update `agconnect-services.json` configuration file.
+
+---
+E/HMSSDK_HmsInstanceIdEx: TokenTask failed, ErrorCode: 6003
+
+__Solution__: Add SHA-256 certificate fingerprint.
+---
+
+[FAQ](https://developer.huawei.com/consumer/en/doc/development/HMSCore-Guides/faq-0000001050042183)
 
 ### Server
 
