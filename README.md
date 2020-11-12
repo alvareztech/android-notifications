@@ -33,7 +33,7 @@ __Solution__: Update `agconnect-services.json` configuration file.
 
 E/HMSSDK_HmsInstanceIdEx: TokenTask failed, ErrorCode: 6003
 
-__Solution__: Add SHA-256 certificate fingerprint.
+__Solution__: Add fingerprint to Huawei web console.
 
 ---
 
